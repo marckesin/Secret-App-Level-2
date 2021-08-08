@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+div.d-flex.flex-column.h-100{
+  position: relative;
+  z-index: 99;
+}
+
+hr{
+  color: #fff;
+}
+
+input[type=email]:not(:focus):invalid,
+input[type=password]:not(:focus):invalid {
+  color: red;
+  outline-color: red;
+}
+
+input[type=email]:valid,
+input[type=password]:valid {
+  background-color: #d2f8d2;
+}
+
+::selection {
+  background-color: #fff;
+  color: #000;
+}
+
+.bg-new{
+  background-color: rgba(52, 58, 64, .7);
+  border-radius: 20px;
+  width: 88%;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+
+.btn{
+  border: 1px solid white;
+}
+
+.div1{
+  width: 90%;
+  height: 53%;
+  background-color:  #495057;
+  position: absolute;
+  top: 18%;
+  left: 5%;
+  z-index: -1;
+  transition: transform .2s, box-shadow .2s;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+.div2{
+  width: 92%;
+  height: 61%;
+  background-color: #6c757d;
+  position: absolute;
+  top: 14%;
+  left: 4%;
+  z-index: -2;
+  transition: transform .2s, box-shadow .2s;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+.div3{
+  width: 94%;
+  height: 69%;
+  background-color: #adb5bd;
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  z-index: -3;
+  transition: transform .2s, box-shadow .2s;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+.div4{
+  width: 96%;
+  height: 77%;
+  background-color: #ced4da;
+  position: absolute;
+  top: 6%;
+  left: 2%;
+  z-index: -4;
+  transition: transform .2s, box-shadow .2s;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+.div5{
+  width: 98%;
+  height: 84%;
+  background-color: #dee2e6;
+  position: absolute;
+  top: 3%;
+  left: 1%;
+  z-index: -5;
+  transition: transform .2s, box-shadow .2s;
+  border-radius: 20px;
+  border: 1px solid gray;
+}
+
+.div6{
+  width: 100%;
+  height: 100%;
+  background-color: #e9ecef;
+  position: absolute;
+  top: 0%;
+  z-index: -6;
+  transition: transform .2s, box-shadow .2s;
+  border-radius: 20px;
+  border: 1px solid gray;
+} 
+
+.div1:hover, 
+.div2:hover, 
+.div3:hover, 
+.div4:hover, 
+.div5:hover,
+.div6:hover{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transform: translateY(-15px);
+}
+
+.registrar{
+  margin: 7rem 20rem 0;
+  padding: 1rem;
+}
+
+.text-heading{
+  color: #fff;
+  font-family: 'Special Elite', cursive;
+}
+
+@media(max-width: 850px) {
+  .registrar{
+    margin: 7rem 8rem 0;
+    padding: 1rem;
+  }
+}
+
+@media(max-width: 576px) {
+  .registrar{
+    margin: 4rem 2rem 0;
+    padding: 1rem;
+  }
+
+  .bg-new{
+    padding: 2rem 0!important;
+  }
+
+}
